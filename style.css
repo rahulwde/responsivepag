@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+ 
+.bg{
+  background-color: crimson;
+}
+.navbar{
+  background-attachment:fixed;
+
+
+}
+.nav-link:hover{
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+
+.card-img-top{
+    width: 80px;
+    text-align: justify;
+    align-items: center;
+    border-radius: 50%;
+}
+.card {
+  
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+}
+.hero-section {
+    background-image: url( ./img/social.jpeg );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    text-align: center; 
+    height: 600px;
+
+  }
+
+  .hero-section h1{
+    margin-top: 250px;
+  }
+  .hero { 
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  
+  .hero-text {
+    font-size: 36px;
+    color: #f2dfdf;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect */
+  .hero-text:hover {
+    color: #ff6600;  
+  }
+
+  .bg-age{
+    display: flex;
+    justify-content: center;
+  }
+  .footer{
+
+    margin-top: 100px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.3s ease-in-out;
+     
+  }
+  .footer:hover {
+    background-color: #555;
+  }
+
+  .hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+
+  .hero-section p {
+    font-size: 1.2em;
+  }
+  .content{
+    font-size: 20px;
+    font-style: inherit;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-shadow: #ffffff;
+    
+    
+  }
